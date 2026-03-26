@@ -32,7 +32,7 @@ const Header = () => {
           ))}
           <a
             href="#contact"
-            className="ml-4 px-6 py-2.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-gold-light transition-colors duration-300"
+            className="ml-4 px-6 py-2.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/80 transition-colors duration-300"
           >
             Start a Project
           </a>

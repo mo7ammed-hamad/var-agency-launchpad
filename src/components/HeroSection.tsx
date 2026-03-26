@@ -13,7 +13,7 @@ const HeroSection = () => (
       width={1920}
       height={1080}
     />
-    <div className="absolute inset-0 bg-background/60" />
+    <div className="absolute inset-0 bg-background/80" />
 
     <div className="relative z-10 max-w-4xl mx-auto text-center px-6 pt-20">
       <motion.p
@@ -53,7 +53,7 @@ const HeroSection = () => (
       >
         <a
           href="#contact"
-          className="px-8 py-3.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-gold-light transition-colors duration-300"
+          className="px-8 py-3.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/80 transition-colors duration-300"
         >
           Start Your Project
         </a>

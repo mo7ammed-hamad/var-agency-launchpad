@@ -59,7 +59,7 @@ const ContactSection = () => {
             <textarea placeholder="Project Details" rows={5} className="w-full px-5 py-3.5 bg-card border border-gold-subtle rounded-sm font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors resize-none" />
             <button
               type="submit"
-              className="w-full sm:w-auto px-10 py-3.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-gold-light transition-colors duration-300"
+              className="w-full sm:w-auto px-10 py-3.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/80 transition-colors duration-300"
             >
               {submitted ? "Message Sent ✓" : "Send Message"}
             </button>
