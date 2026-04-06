@@ -31,7 +31,7 @@ const HeroSection = () => (
         transition={{ duration: 0.8, delay: 0.15 }}
         className="font-heading font-bold text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-foreground"
       >
-        Bold Ideas.{" "}
+        Outstanding Ideas.{" "}
         <span className="font-accent italic text-gradient-gold">Premium</span>{" "}
         Execution.
       </motion.h1>
