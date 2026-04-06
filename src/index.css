@@ -6,52 +6,51 @@
 
 @layer base {
   :root {
-    --background: 206 54% 97%;
-    --foreground: 213 33% 21%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 7%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 33% 21%;
+    --card-foreground: 0 0% 7%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 33% 21%;
+    --popover-foreground: 0 0% 7%;
 
-    --primary: 215 55% 24%;
+    --primary: 0 0% 7%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 207 39% 54%;
+    --secondary: 0 0% 40%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 20% 92%;
-    --muted-foreground: 213 20% 45%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 173 58% 39%;
+    --accent: 0 0% 20%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 215 55% 24%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 0 0% 7%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 215 55% 24%;
+    --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 173 58% 39%;
+    --sidebar-primary: 0 0% 20%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 207 39% 54%;
+    --sidebar-accent: 0 0% 40%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 210 20% 88%;
-    --sidebar-ring: 215 55% 24%;
+    --sidebar-border: 0 0% 88%;
+    --sidebar-ring: 0 0% 7%;
 
-    /* Custom tokens — repurposed for new palette */
-    --gold: 173 58% 39%;
-    --gold-light: 207 39% 54%;
+    --gold: 0 0% 20%;
+    --gold-light: 0 0% 40%;
     --charcoal: 0 0% 100%;
-    --charcoal-deep: 206 54% 97%;
-    --ivory: 213 33% 21%;
-    --ivory-muted: 213 20% 45%;
+    --charcoal-deep: 0 0% 96%;
+    --ivory: 0 0% 7%;
+    --ivory-muted: 0 0% 40%;
   }
 }
 
