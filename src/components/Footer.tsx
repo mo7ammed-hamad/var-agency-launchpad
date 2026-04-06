@@ -8,7 +8,7 @@ const Footer = () => (
           <p className="font-heading font-bold text-lg text-foreground tracking-wider">
             VAR <span className="text-gradient-gold">Agency</span>
           </p>
-          <p className="mt-2 font-accent italic text-sm text-muted-foreground">Bold Ideas. Premium Execution.</p>
+          <p className="mt-2 font-accent italic text-sm text-muted-foreground">Outstanding Ideas. Premium Execution.</p>
           <p className="mt-4 font-body text-sm text-muted-foreground leading-relaxed">
             Integrated marketing solutions across branding, digital marketing, events, print materials, promotional items, and content production.
           </p>
