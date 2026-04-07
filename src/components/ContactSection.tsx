@@ -73,9 +73,9 @@ const ContactSection = () => {
             className="lg:col-span-2 space-y-8"
           >
             {[
-              { icon: MessageCircle, label: "WhatsApp", value: "+964 750 000 0000" },
+              { icon: MessageCircle, label: "WhatsApp", value: "+964 750 211 3131" },
               { icon: Mail, label: "Email", value: "info@var-agency.com" },
-              { icon: Phone, label: "Phone", value: "+964 750 000 0000" },
+              { icon: Phone, label: "Phone", value: "+964 750 211 3131" },
               { icon: MapPin, label: "Locations", value: "Erbil  ·  Baghdad" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-4">
