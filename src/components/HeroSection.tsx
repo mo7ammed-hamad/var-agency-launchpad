@@ -16,14 +16,6 @@ const HeroSection = () => (
     <div className="absolute inset-0 bg-background/80" />
 
     <div className="relative z-10 max-w-4xl mx-auto text-center px-6 pt-20">
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="font-heading text-xs tracking-[0.3em] uppercase text-primary mb-6"
-      >
-        Erbil &nbsp;·&nbsp; Baghdad
-      </motion.p>
 
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
