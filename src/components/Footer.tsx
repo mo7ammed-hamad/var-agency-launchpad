@@ -32,7 +32,8 @@ const Footer = () => (
               <s.icon className="w-4 h-4" />
             </a>
           ))}
-
+        </div>
+      </div>
 
       <div className="mt-12 pt-8 border-t border-gold-subtle flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-body text-xs text-muted-foreground">
