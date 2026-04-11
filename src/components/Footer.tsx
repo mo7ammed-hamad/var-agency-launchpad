@@ -39,9 +39,6 @@ const Footer = () => (
         <p className="font-body text-xs text-muted-foreground">
           © {new Date().getFullYear()} VAR Agency. All rights reserved.
         </p>
-        <p className="font-body text-xs text-muted-foreground">
-          Erbil &nbsp;·&nbsp; Baghdad
-        </p>
       </div>
     </div>
   </footer>
