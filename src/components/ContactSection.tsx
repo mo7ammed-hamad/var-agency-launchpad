@@ -73,7 +73,7 @@ const ContactSection = () => {
             className="lg:col-span-2 space-y-8"
           >
             {[
-              { icon: MessageCircle, label: "WhatsApp", value: "+964 750 211 3131" },
+              { icon: MessageCircle, label: "\n", value: "\n" },
               { icon: Mail, label: "Email", value: "info@var-agency.com" },
               { icon: Phone, label: "Phone", value: "+964 750 211 3131" },
               { icon: MapPin, label: "Location", value: "Erbil" },
