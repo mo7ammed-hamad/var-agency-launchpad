@@ -79,9 +79,6 @@ const ContactSection = () => {
               { icon: MapPin, label: "Location", value: "Erbil" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-sm bg-gold-subtle flex items-center justify-center flex-shrink-0">
-                  <item.icon className="w-4 h-4 text-primary" />
-                </div>
                 <div>
                   <p className="font-heading text-xs tracking-wide text-muted-foreground uppercase">{item.label}</p>
                   <p className="font-body text-sm text-foreground mt-0.5">{item.value}</p>
