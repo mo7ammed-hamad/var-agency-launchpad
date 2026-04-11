@@ -16,14 +16,16 @@ const Footer = () => (
 
         <div className="flex gap-4">
           {[
-            { icon: Instagram, label: "Instagram" },
-            { icon: Linkedin, label: "LinkedIn" },
-            { icon: MessageCircle, label: "WhatsApp" },
-            { icon: Mail, label: "Email" },
+            { icon: Instagram, label: "Instagram", href: "#" },
+            { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/var-marketing-agency/about/?viewAsMember=true" },
+            { icon: MessageCircle, label: "WhatsApp", href: "#" },
+            { icon: Mail, label: "Email", href: "#" },
           ].map((s) => (
             <a
               key={s.label}
-              href="#"
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label={s.label}
               className="w-10 h-10 rounded-sm border border-gold-subtle flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-all duration-300"
             >
