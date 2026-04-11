@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, MessageCircle, Mail } from "lucide-react";
+import { Instagram, Linkedin, Facebook, Mail } from "lucide-react";
 
 const Footer = () => (
   <footer className="py-16 px-6 md:px-12 border-t border-gold-subtle bg-background">
@@ -18,7 +18,7 @@ const Footer = () => (
           {[
             { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/var__agency/?hl=en" },
             { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/var-marketing-agency/about/?viewAsMember=true" },
-            { icon: MessageCircle, label: "WhatsApp", href: "#" },
+            { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/var.marketing.agency/" },
             { icon: Mail, label: "Email", href: "#" },
           ].map((s) => (
             <a
