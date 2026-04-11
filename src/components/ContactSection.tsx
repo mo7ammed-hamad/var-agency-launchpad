@@ -61,7 +61,7 @@ const ContactSection = () => {
               type="submit"
               className="w-full sm:w-auto px-10 py-3.5 bg-primary text-primary-foreground font-heading text-xs font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/80 transition-colors duration-300"
             >
-              {submitted ? "Message Sent ✓" : "Send Message"}
+              {submitted ? "Message Sent ✓" : "Submit"}
             </button>
           </motion.form>
 
