@@ -32,22 +32,7 @@ const Footer = () => (
               <s.icon className="w-4 h-4" />
             </a>
           ))}
-            { icon: Instagram, label: "Instagram" },
-            { icon: Linkedin, label: "LinkedIn" },
-            { icon: MessageCircle, label: "WhatsApp" },
-            { icon: Mail, label: "Email" },
-          ].map((s) => (
-            <a
-              key={s.label}
-              href="#"
-              aria-label={s.label}
-              className="w-10 h-10 rounded-sm border border-gold-subtle flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/40 transition-all duration-300"
-            >
-              <s.icon className="w-4 h-4" />
-            </a>
-          ))}
-        </div>
-      </div>
+
 
       <div className="mt-12 pt-8 border-t border-gold-subtle flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-body text-xs text-muted-foreground">
