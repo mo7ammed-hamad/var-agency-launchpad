@@ -16,7 +16,7 @@ const Footer = () => (
 
         <div className="flex gap-4">
           {[
-            { icon: Instagram, label: "Instagram", href: "#" },
+            { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/var__agency/?hl=en" },
             { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/var-marketing-agency/about/?viewAsMember=true" },
             { icon: MessageCircle, label: "WhatsApp", href: "#" },
             { icon: Mail, label: "Email", href: "#" },
