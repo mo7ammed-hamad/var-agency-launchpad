@@ -24,7 +24,7 @@ const HeroSection = () => (
         className="font-heading font-bold text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-foreground"
       >
         Outstanding Ideas.{" "}
-        <span className="font-accent italic text-gradient-gold">Premium</span>{" "}
+        <span className="font-accent italic text-gradient-gold text-black">Premium</span>{" "}
         Execution.
       </motion.h1>
 

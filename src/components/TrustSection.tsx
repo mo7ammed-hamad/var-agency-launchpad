@@ -17,7 +17,7 @@ const TrustSection = () => {
           <div className="w-12 h-px bg-primary mx-auto mb-8" />
           <h2 className="font-heading font-semibold text-2xl md:text-3xl text-foreground leading-snug">
             A modern agency built for brands that want{" "}
-            <span className="text-gradient-gold font-accent italic">impact</span>.
+            <span className="text-gradient-gold font-accent italic text-black">impact</span>.
           </h2>
           <p className="mt-6 font-body text-muted-foreground text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
             We help businesses strengthen their market presence through strategic thinking, strong creative direction, and high-quality execution across digital and offline channels.
