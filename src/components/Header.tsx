@@ -17,7 +17,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-gold-subtle">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
         <a href="#home" className="font-heading font-bold text-xl tracking-wider text-foreground">
-          VAR <span className="text-gradient-gold">Agency</span>
+          VAR <span className="text-foreground">Agency</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
