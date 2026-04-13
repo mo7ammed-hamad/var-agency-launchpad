@@ -16,7 +16,7 @@ const CTASection = () => {
         >
           <h2 className="font-heading font-bold text-3xl md:text-4xl text-foreground leading-snug">
             Let's Build Something{" "}
-            <span className="font-accent italic text-gradient-gold">Powerful</span>{" "}
+            <span className="font-accent italic text-gradient-gold text-black">Powerful</span>{" "}
             for Your Brand
           </h2>
           <p className="mt-6 font-body text-muted-foreground text-base md:text-lg leading-relaxed">

@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10">
         <div className="max-w-md">
           <p className="font-heading font-bold text-lg text-foreground tracking-wider">
-            VAR <span className="text-gradient-gold">Agency</span>
+            VAR <span className="text-gradient-gold text-black">Agency</span>
           </p>
           <p className="mt-2 font-accent italic text-sm text-muted-foreground">Outstanding Ideas. Premium Execution.</p>
           <p className="mt-4 font-body text-sm text-muted-foreground leading-relaxed">
